@@ -62,3 +62,14 @@ body{
     border-top-left-radius:20px;
     border-bottom-left-radius:20px;
 }
+.qr-container{
+    height: 200px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.qr-container img{
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
