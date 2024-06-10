@@ -3,5 +3,10 @@ let inputText=document.querySelector("#input-text")
 let qrImage=document.querySelector("#qr-img")
 
 function QR(){
-    qrImage.src=apiUrl+inputText.value
+    if(inputText.value===''){
+        alert("Type Something To Generate QR Code !")
+    }else{
+        qrImage.src=apiUrl+inputText.value
+    }
+    
 }

@@ -81,7 +81,9 @@ body{
 }
 
 .qr-container img{
-    height: 250px;
+    height: 200px;
+    padding:10px;
+    border-radius: 5px;
     object-fit: cover;
     object-position: center;
 }
