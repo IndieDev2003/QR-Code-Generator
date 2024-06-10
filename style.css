@@ -19,17 +19,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: url(https://i.pinimg.com/originals/f1/e0/a7/f1e0a7a79352c0aac4a88bfd5894a759.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .app{
-    height: 400px;
-    width:250px;
-    background-color: antiquewhite;
+    height: 500px;
+    width:350px;
+    background-color: rgba(250, 235, 215, 0.247);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding:10px;
-    border-radius: 10px;;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
 }
 
 .up{
@@ -63,13 +67,21 @@ body{
     border-bottom-left-radius:20px;
 }
 .qr-container{
-    height: 200px;
+    height: 250px;
+    width:250px;
     border-radius:10px;
     overflow:hidden;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid rgba(63, 11, 11, 0.568);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter:blur(10px);
 }
 
 .qr-container img{
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     object-position: center;
 }

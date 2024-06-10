@@ -10,16 +10,24 @@
 
     <div class="main">
         <div class="app">
+            <div class="upper-div">
+                <h1>QR Code Generater</h1>
+            </div>
             <div class="up">
+                
                 <input type="text" placeholder="Input For QR" id="input-text">
-                <button id="generate-btn">Generate</button>
+                <button id="generate-btn" onclick="QR()">Generate</button>
             </div>
-
+            
             <div class="qr-container">
-                <img src="https://i.pinimg.com/564x/50/a4/c4/50a4c4fdb4f5c5fa7449d9029a93d5cb.jpg" alt="">
+                <img src="https://i.pinimg.com/564x/50/a4/c4/50a4c4fdb4f5c5fa7449d9029a93d5cb.jpg" alt="" id="qr-img">
             </div>
+            
         </div>
+    
     </div>
     
+
+    <script src="./qrcodegenerator.js"></script>
 </body>
 </html>
